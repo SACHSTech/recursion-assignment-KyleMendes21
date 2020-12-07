@@ -41,6 +41,7 @@ public class RecursionTest{
     }
     */
 
+    /**
     @Test
     public void Test21(){
       assertEquals("", Recursion.pairStar(""));  
@@ -69,6 +70,12 @@ public class RecursionTest{
     @Test
     public void Test26(){
       assertEquals("a*a*a*a", Recursion.pairStar("aaaa"));  
+    }
+    */
+
+    @Test
+    public void Test31(){
+      assertEquals("a", Recursion.stringClean("a"));  
     }
     
     // add more tests
