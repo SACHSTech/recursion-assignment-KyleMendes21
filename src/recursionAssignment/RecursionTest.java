@@ -60,6 +60,11 @@ public class RecursionTest{
     public void Test24(){
       assertEquals("hel*lo", Recursion.pairStar("hello"));  
     }
+
+    @Test
+    public void Test25(){
+      assertEquals("y*yx*x", Recursion.pairStar("yyxx"));  
+    }
     
     // add more tests
     
