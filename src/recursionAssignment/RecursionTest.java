@@ -12,7 +12,7 @@ public class RecursionTest{
     */
     @Test
     public void Test1(){
-      assertEquals(0, Recursion.count7(0));
+      assertEquals(0, Recursion.count7(0)); 
     }
     
     // add more tests
