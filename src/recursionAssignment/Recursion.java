@@ -49,7 +49,10 @@ public class Recursion {
       return stringClean(str.substring(1));
     }
 
-    return str; 
+    // recursion 2
+    else {
+      return str.charAt(0) + stringClean(str.substring(1));
+    }
   }
 
 
