@@ -97,6 +97,11 @@ public class RecursionTest{
     public void Test35(){
       assertEquals("abcd", Recursion.stringClean("abbbcdd"));   
     }
+
+    @Test
+    public void Test36(){
+      assertEquals("helo", Recursion.stringClean("hello"));   
+    }
     
     // add more tests
     
