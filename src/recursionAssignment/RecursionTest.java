@@ -7,9 +7,7 @@ import recursionAssignment.Recursion;
 public class RecursionTest{
     
   
-    /**
-     * An initial test
-  
+    // count7 Testing
     @Test
     public void Test11(){
       assertEquals(0, Recursion.count7(0)); 
@@ -39,9 +37,8 @@ public class RecursionTest{
     public void Test16(){
       assertEquals(5, Recursion.count7(71717177)); 
     }
-    */
 
-    /**
+    // pairStar Testing
     @Test
     public void Test21(){
       assertEquals("", Recursion.pairStar(""));  
@@ -71,8 +68,8 @@ public class RecursionTest{
     public void Test26(){
       assertEquals("a*a*a*a", Recursion.pairStar("aaaa"));  
     }
-    */
 
+    // stringClean Testing
     @Test
     public void Test31(){
       assertEquals("a", Recursion.stringClean("a"));   
