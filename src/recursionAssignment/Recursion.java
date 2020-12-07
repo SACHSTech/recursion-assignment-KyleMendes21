@@ -37,5 +37,15 @@ public class Recursion {
     }
   }
 
+  public static String stringClean(String str) {
+
+    // basic line
+    if (str.length() < 2) {
+      return str;
+    }
+
+    return 1;
+  }
+
 
 }
