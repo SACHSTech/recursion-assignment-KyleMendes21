@@ -43,7 +43,7 @@ public class RecursionTest{
 
     @Test
     public void Test21(){
-      assertEquals("", Recursion.pairStar("")); 
+      assertEquals("", Recursion.pairStar(""));  
     }
     
     // add more tests
