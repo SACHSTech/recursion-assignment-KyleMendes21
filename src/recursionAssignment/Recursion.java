@@ -27,7 +27,7 @@ public class Recursion {
     }
     // recursion 1
     if (str.charAt(0) == str.charAt(1)) {
-      return str.charAt(0) + "*" + str.charAt(1);
+      return str.charAt(0) + "*" + str.substring(1);
     }
 
     return str;
