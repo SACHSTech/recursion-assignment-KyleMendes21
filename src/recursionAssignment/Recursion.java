@@ -25,12 +25,16 @@ public class Recursion {
     if (str.equals("") || str.length() == 1) {
       return str;
     }
+    
     // recursion 1
     if (str.charAt(0) == str.charAt(1)) {
       return str.charAt(0) + "*" + str.substring(1);
     }
 
-    return str;
+    // recursion 2
+    else {
+      return str.charAt(0) + pairStar(str.substring(1));
+    }
   }
 
 
