@@ -21,8 +21,13 @@ public class Recursion {
 
   public static String pairStar(String str) {
 
+    // basic line
     if (str.equals("") || str.length() == 1) {
       return str;
+    }
+    // recursion 1
+    if (str.charAt(0) == str.charAt(1)) {
+      return str.charAt(0) + "*" + str.charAt(1);
     }
 
     return str;
