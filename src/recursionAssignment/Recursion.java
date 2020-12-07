@@ -1,6 +1,6 @@
 package recursionAssignment;
 
-public class Recursion{
+public class Recursion {
 
   public static int count7(int n) {
 
@@ -17,9 +17,16 @@ public class Recursion{
     else {
       return count7(n / 10);
     }
-
-    
-
   }
+
+  public static String pairStar(String str) {
+
+    if (str.equals("") || str.length() == 1) {
+      return str;
+    }
+
+    return str;
+  }
+
 
 }

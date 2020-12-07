@@ -9,7 +9,7 @@ public class RecursionTest{
   
     /**
      * An initial test
-    */
+  
     @Test
     public void Test11(){
       assertEquals(0, Recursion.count7(0)); 
@@ -38,6 +38,12 @@ public class RecursionTest{
     @Test
     public void Test16(){
       assertEquals(5, Recursion.count7(71717177)); 
+    }
+    */
+
+    @Test
+    public void Test21(){
+      assertEquals("", Recursion.pairStar("")); 
     }
     
     // add more tests
