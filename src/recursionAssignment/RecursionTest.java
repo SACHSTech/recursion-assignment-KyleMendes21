@@ -75,7 +75,7 @@ public class RecursionTest{
 
     @Test
     public void Test31(){
-      assertEquals("a", Recursion.stringClean("a"));  
+      assertEquals("a", Recursion.stringClean("a"));   
     }
     
     // add more tests
